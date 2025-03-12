@@ -43,9 +43,9 @@ WHERE countrycode = 'TTO';
 
 # 6: Get the name and district named as nm,dist from the cities where the countrycode is "arm"
 
-SELECT name AS nm, district AS dist 
-FROM cities 
-WHERE countrycode = 'ARM';
+select Name AS nm, District AS dist 
+from city
+where CountryCode = 'ARM';
 
 # 7: Get the cities with a name that starts with "bor"
 
